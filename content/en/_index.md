@@ -12,7 +12,7 @@ Building tools and fostering the community to equip developers to champion the D
 {{< /brick_intro >}}
 {{< brick_image2 >}}
 
-## About the DevEx Institute
+## About Us
 
 ![](/images/illustrations/developer-analysis2.jpg)
 
