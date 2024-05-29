@@ -35,7 +35,7 @@ https://devex.institute
 - Edited "landing page" at `./content/en/_index.md` to include what content is included on the home page
 - Added `./static/css/style.css` and included override css for post titles
 - Duplicated `./themes/hugobricks/layouts/partials/brick_post.html` to `./layouts/partials/` and then edited to move post image to be above the title in post view
-- 
+- Added `./netlify.toml` for Netlify build settings
 
 ### Modifications made
 
