@@ -1,4 +1,4 @@
-action: /form.php
+action: "#" #contact form updated to work with Netlify, https://docs.netlify.com/forms/setup/
 placeholders: false
 fields: 
 - name: title
