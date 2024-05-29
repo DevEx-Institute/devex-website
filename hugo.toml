@@ -1,0 +1,30 @@
+baseURL = 'https://devex.institute/'
+languageCode = 'en-us'
+title = 'DevEx Institute'
+theme = "hugobricks"
+defaultContentLanguage = 'en'
+assetDir = "static"
+timeZone = "America/New_York"
+
+[markup]
+    [markup.goldmark]
+        [markup.goldmark.renderer]
+            unsafe = true # Allow HTML in md files
+
+[languages]
+    [languages.en]
+        weight = 1
+        languageName = 'English'
+        contentDir = 'content/en'
+        disabled = false
+
+[services]
+  [services.disqus]
+    shortname = ''
+  [services.instagram]
+    accessToken = ''
+    disableInlineCSS = false
+  [services.rss]
+    limit = -1
+  [services.twitter]
+    disableInlineCSS = false

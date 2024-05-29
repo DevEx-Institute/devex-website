@@ -1,0 +1,10 @@
+favicon_image: /images/favicon.png # /static/images/favicon.png
+sticky_header: true
+customcursor: false
+intersectionobserver: true
+filter_has_numbers: true
+page_size: 3
+preheader: 
+  active: false
+  is_light: true
+  text: ""

@@ -1,0 +1,3 @@
+[services]
+    [services.googleAnalytics]
+        id = 'G-BNBKE8JCEF'

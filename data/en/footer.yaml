@@ -1,0 +1,28 @@
+logo_image: /images/logo-dark.png # use dark image if dark footer
+dark_footer: true
+menuitems:
+  - title: About
+    link:  /about/
+  - title: Team
+    link:  /team/
+  - title: Contact us
+    link: /contact/
+#  - title: Privacy policy
+#    link:  /privacy-policy/
+socials:
+  # - title: Facebook
+  #   link: https://facebook.com
+  #   logo_image: /img/facebook.svg
+  - title: Twitter
+    link: https://twitter.com/DevExInstitute
+    logo_image: /img/twitter.svg
+  - title: LinkedIn
+    link: https://www.linkedin.com/company/devex-institute
+    logo_image: /img/linkedin.svg
+  # - title: Mastodon
+  #   link: https://joinmastodon.org
+  #   logo_image: /img/mastodon.svg
+  # - title: Instagram
+  #   link: https://instagram.com
+  #   logo_image: /img/instagram.svg
+footer_text: This theme is open source. More info on [Github](https://github.com/jhvanderschee/hugobricks)!
