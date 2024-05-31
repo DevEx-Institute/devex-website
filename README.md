@@ -36,6 +36,8 @@ https://devex.institute
 - Added `./static/css/style.css` and included override css for post titles
 - Duplicated `./themes/hugobricks/layouts/partials/brick_post.html` to `./layouts/partials/` and then edited to move post image to be above the title in post view
 - Added `./netlify.toml` for Netlify build settings
+- Updated `canonical_url` usage in theme by moving `<head></head>` elements into a partial at `./layouts/partials/head.html` and then including it in the `baseof.html` layout, and then adding logic for if `canonicalUrl` is used in the front matter of a post
+- Updated `archetypes/default.md` to meet the necessary elements for a new post (use `hugo new content posts/<name-of-new-post>.md`)
 
 ### Modifications made
 
