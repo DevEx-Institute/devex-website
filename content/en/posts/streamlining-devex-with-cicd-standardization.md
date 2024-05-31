@@ -14,6 +14,7 @@ tags:
   - devops
   - cicd
 toc: false
+canonicalUrl: "https://jmeiss.me/posts/streamlining-devex-with-cicd-standardization/"
 ---
 
 *Image created by ChatGPT / DALL-E*

@@ -14,6 +14,7 @@ tags:
   - devops
   - cicd
 toc: true
+canonicalUrl: "https://jmeiss.me/posts/cicd-interoperability-role-devex/"
 ---
 
 *Image created by ChatGPT / DALL-E*
