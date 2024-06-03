@@ -3,7 +3,7 @@ logo_subtitle:
 mobile_view_width: 1000
 menuitems:
   - title: About
-    link: /#about-us
+    link: /#about
     items: 
       - title:
         link:
