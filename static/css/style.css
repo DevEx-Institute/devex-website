@@ -51,3 +51,7 @@ img {filter: grayscale(0);}
 section.post .container {
     max-width: 75%;
 }
+
+section.about {
+    padding-top: 6rem !important;
+}
