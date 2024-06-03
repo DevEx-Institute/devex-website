@@ -10,8 +10,8 @@ Building tools and fostering the community to equip developers to champion the D
 {{< button "Get started for free" "/get-started/" >}}
 
 {{< /brick_intro >}}
-{{< brick_image2 >}}
 
+{{< brick_about >}}
 ## About Us
 
 ![](/images/illustrations/developer-analysis2.jpg)
@@ -20,7 +20,7 @@ The DevEx Institute exists to equip developers and practitioners with the resour
 
 Imagine a world where developers have the power to shape their ideal development environment. That’s the future we’re working towards. By uniting developers and practitioners, we can transform DevEx from a silent wish list to a prioritized business objective.
 
-{{< /brick_image2 >}}
+{{< /brick_about >}}
 
 {{< brick_features >}}
 ## Our Purpose
