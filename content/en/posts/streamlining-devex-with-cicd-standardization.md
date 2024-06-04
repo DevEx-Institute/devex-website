@@ -5,9 +5,7 @@ draft: false
 image: /images/posts/streamlining-cicd.jpg
 description: "A successful DevEx focuses on eliminating obstacles that hinder a developer or practitioner from achieving success. CI/CD standardization is an important piece."
 summary: "A successful DevEx focuses on eliminating obstacles that hinder a developer or practitioner from achieving success. It also refers to developers' overall satisfaction and efficiency while working on software projects. CI/CD standardization brings consistency to development pipelines, reducing friction and enhancing collaboration."
-author:
-  name: Jeremy Meiss
-  image: /images/author/jeremy-meiss.jpg
+authors: ["Jeremy Meiss"]
 tags:
   - devex
   - developer experience
@@ -17,7 +15,7 @@ toc: false
 canonicalUrl: "https://jmeiss.me/posts/streamlining-devex-with-cicd-standardization/"
 ---
 
-_**Author's Note:** What follows is the foundation of a conference talk most recently given at FOSDEM 2024, and has been split up into 2 parts for easy reading. This is the first, with the [second posted here](/posts/cicd-interoperability-role-devex)_ 
+_**Author's Note:** What follows is the foundation of a conference talk most recently given at FOSDEM 2024, and has been split up into 2 parts for easy reading. This is the first, with the [second posted here](/posts/cicd-interoperability-role-devex)_.
 
 ---
 

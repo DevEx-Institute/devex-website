@@ -17,7 +17,7 @@ toc: true
 canonicalUrl: "https://jmeiss.me/posts/cicd-interoperability-role-devex/"
 ---
 
-_**Author's Note:** What follows is the foundation of a conference talk most recently given at FOSDEM 2024, and has been split up into 2 parts for easy reading. This is the 2nd post, with the [first posted here](/posts/streamlining-devex-with-cicd-standardization)_
+_**Author's Note:** What follows is the foundation of a conference talk most recently given at FOSDEM 2024, and has been split up into 2 parts for easy reading. This is the 2nd post, with the [first posted here](/posts/streamlining-devex-with-cicd-standardization)_.
 
 ---
 
