@@ -2,11 +2,13 @@ logo_image: /images/logo-dark.png # use dark image if dark footer
 dark_footer: true
 menuitems:
   - title: About
-    link:  /about/
+    link:  /#about
   - title: Team
-    link:  /team/
-  - title: Contact us
-    link: /contact/
+    link:  /#team
+  - title: Blog
+    link: /blog/
+  - title: Contact Us
+    link: /#contact_us
 #  - title: Privacy policy
 #    link:  /privacy-policy/
 socials:
@@ -25,4 +27,4 @@ socials:
   # - title: Instagram
   #   link: https://instagram.com
   #   logo_image: /img/instagram.svg
-footer_text: This theme is open source. More info on [Github](https://github.com/jhvanderschee/hugobricks)!
+footer_text: Copyright &copy; 2024. DevEx All Teh Things LLC.<br>Theme built with [Hugo](https://gohugo.io) and [HugoBricks](https://github.com/jhvanderschee/hugobricks)!
