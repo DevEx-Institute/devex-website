@@ -52,9 +52,11 @@
         <a class="button secondary ghost smaller" id="loadmoreposts" onclick="loadMorePosts();">{{ i18n "Load more posts" }}...</a>
 
         {{ if ne page.IsHome false }}
+            {{ if gt (len $posts) 3 }}
                 <div class="container small">
                     <a class="button smaller" id="" href="/blog">{{ i18n "Load more posts" }}...</a>
                 </div>
+            {{ end }}
         {{ end }}
 
         <script src="/js/filter.js" charset="utf-8"></script>
