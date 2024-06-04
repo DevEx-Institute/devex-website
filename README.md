@@ -40,6 +40,7 @@ https://devex.institute
 - Updated `archetypes/default.md` to meet the necessary elements for a new post (use `hugo new content posts/<name-of-new-post>.md`)
 - Created `./layouts/partials/brick_about.html` as a custom brick based off of `image2` brick, and kept About on home page
 - Utilizing contact form on home page instead of separate page
+- Added Google Analytics to `./layouts/partials/head.html` and it will only display on production builds
 
 ### Modifications made
 
