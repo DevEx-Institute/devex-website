@@ -22,7 +22,7 @@ Imagine a world where developers have the power to shape their ideal development
 
 {{< /brick_about >}}
 
-{{< brick_features >}}
+{{< brick_purpose >}}
 ## Our Purpose
 
 ---
@@ -46,7 +46,7 @@ Developing resources and frameworks specifically designed to help developers bui
 
 Conducting research and gathering real-world data to highlight DevEx, from the bottom-up.
 
-{{< /brick_features >}}
+{{< /brick_purpose >}}
 
 {{< brick_team >}}
 

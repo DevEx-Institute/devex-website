@@ -126,6 +126,20 @@ ul.features li p.image + h3 {padding-top: 0;}
 ul.features li.has_icon p.image {display: inline-block; padding: 1.5rem; border-radius: 100%; border: 0.1rem solid var(--accent);}
 ul.features li.has_icon p.image img {aspect-ratio: 1; object-fit: contain; width: 3rem; margin: 0 auto; border-radius: 0;}
 
+/*---------------------------*/
+/* brick purpose
+/* added 4-Jun-2024 by Jeremy
+/*---------------------------*/
+
+section.purpose .container.small {margin-bottom: 4rem; text-align: center;}
+section.purpose + section.title {padding-top: 0;}
+ul.purpose {gap: 3rem 3rem; padding-bottom: 1rem;}
+ul.purpose li {text-align: center;}
+ul.purpose li img {aspect-ratio: 1.5; object-fit: contain; width: 100%;}
+ul.purpose li p.image {margin-bottom: 0.85rem;}
+ul.purpose li p.image + h3 {padding-top: 0;}
+ul.purpose li.has_icon p.image {display: inline-block; padding: 1.5rem; border-radius: 100%; border: 0.1rem solid var(--accent);}
+ul.purpose li.has_icon p.image img {aspect-ratio: 1; object-fit: contain; width: 3rem; margin: 0 auto; border-radius: 0;}
 
 /*------------------------*/
 /* brick prices
