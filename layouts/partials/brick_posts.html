@@ -7,10 +7,13 @@
 {{- end -}}
 {{- $posts := where page.Site.RegularPages "Section" "posts" -}}
 <section class="posts" id="posts">
-    {{ if $inner }}<div class="container small">
+    {{ if $inner }}
+    <div class="container small">
         {{- markdownify $inner -}}
-    </div>{{ end }}
+    </div>
+    {{ end }}
     <div class="container">
+        {{ if ne page.IsHome true }}
         <div class="filter">
             <select id="filter" class="multiselecttags numbers_{{ page.Site.Data.settings.filter_has_numbers }}" multiple autocomplete="off">
                 {{ range $name, $taxonomy := page.Site.Taxonomies.tags }}
@@ -18,6 +21,7 @@
                 {{ end }}
             </select>
         </div>
+        {{ end }}
         <ul class="contentitems grid posts" data-pagesize="{{ page.Site.Data.settings.page_size }}">
             {{ range $index,$post := $posts }}                
                 <li class="item{{ range .Params.tags }} tag_{{ . }}{{ end }}">
@@ -46,6 +50,13 @@
             <li class="placeholder"></li>
         </ul>
         <a class="button secondary ghost smaller" id="loadmoreposts" onclick="loadMorePosts();">{{ i18n "Load more posts" }}...</a>
+
+        {{ if ne page.IsHome false }}
+                <div class="container small">
+                    <a class="button smaller" id="" href="/blog">{{ i18n "Load more posts" }}...</a>
+                </div>
+        {{ end }}
+
         <script src="/js/filter.js" charset="utf-8"></script>
     </div>
 </section>

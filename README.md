@@ -46,3 +46,5 @@ https://devex.institute
 
 - Copied `/themes/hugobricks/layouts/partials/people.html` to `./layouts/partials/people.html` and modified to add Twitter links and adjust location of social links
 - Multiple css changes made in `/static/css/style.css`
+- Adjusted recent posts on home page to not have a filter
+- Added `load more posts` button to end of Recent Posts
