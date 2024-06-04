@@ -86,3 +86,5 @@ ul.purpose li.has_icon p.image img {aspect-ratio: 1; object-fit: contain; width:
 section.post .container .meta {justify-content: center; margin-bottom: 1rem; margin-top: -0.75rem;}
 section.post p:first-child, .container.post p:first-child a {font-size: 1rem !important;} /* override making the first paragraph bigger */
 section.post a {color: var(--textAccent);}
+section.posts .grid .item h3 a {color: var(--textDark) !important; text-decoration: none !important;}
+
