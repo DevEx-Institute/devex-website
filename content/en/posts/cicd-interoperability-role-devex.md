@@ -17,8 +17,6 @@ toc: true
 canonicalUrl: "https://jmeiss.me/posts/cicd-interoperability-role-devex/"
 ---
 
-*Image created by ChatGPT / DALL-E*
-
 _**Author's Note:** What follows is the foundation of a conference talk most recently given at FOSDEM 2024, and has been split up into 2 parts for easy reading. This is the 2nd post, with the [first posted here](/posts/streamlining-devex-with-cicd-standardization)_
 
 ---
@@ -132,3 +130,5 @@ Taking the time to address this will pay off immediately and continually for the
 
 ## Closing
 The efficiencies gained by making sure you're using tools that provide CI/CD standardization as well as being interoperable between all of the systems your developers are using is at the core of what Developer Experience is all about… ***ruthlessly eliminating barriers (and blockers) that keep your developers from being successful.*** Hopefully, this post (and the one preceding it) helps you or your organizatiofn work through some of those challenges and gives you a better roadmap for achieving key DevEx. Developers have their choice of tools and companies, so give them a fighting chance by helping them have the most seamless experience possible.
+
+*Cover image created by ChatGPT / DALL-E*

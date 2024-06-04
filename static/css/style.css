@@ -64,10 +64,6 @@ section.contact {
     padding-top: 6rem !important;
 }
 
-meta.byline {
-    display: block !important;
-}
-
 /*---------------------------*/
 /* brick purpose
 /* added 4-Jun-2024 by Jeremy
@@ -82,3 +78,12 @@ ul.purpose li p.image {margin-bottom: 0.85rem;}
 ul.purpose li p.image + h3 {padding-top: 0;}
 ul.purpose li.has_icon p.image {display: inline-block; padding: 1.5rem; border-radius: 100%; border: 0.1rem solid var(--accent);}
 ul.purpose li.has_icon p.image img {aspect-ratio: 1; object-fit: contain; width: 3rem; margin: 0 auto; border-radius: 0;}
+
+/*---------------------------*/
+/* post changes
+/*---------------------------*/
+
+section.post .container .meta {justify-content: center; margin-bottom: 1rem; margin-top: -0.75rem;}
+section.post p:first-child, .container.post p:first-child a {font-size: 1rem !important;} /* override making the first paragraph bigger */
+section.post a {color: var(--textAccent);}
+/* a {color: var(--textAccent)!important;} */

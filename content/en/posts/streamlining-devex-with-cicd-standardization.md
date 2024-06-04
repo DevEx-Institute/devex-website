@@ -17,8 +17,6 @@ toc: false
 canonicalUrl: "https://jmeiss.me/posts/streamlining-devex-with-cicd-standardization/"
 ---
 
-*Image created by ChatGPT / DALL-E*
-
 _**Author's Note:** What follows is the foundation of a conference talk most recently given at FOSDEM 2024, and has been split up into 2 parts for easy reading. This is the first, with the [second posted here](/posts/cicd-interoperability-role-devex)_ 
 
 ---
@@ -110,3 +108,7 @@ Moreover, collaboration among cross-functional teams promotes transparency, acco
 ## CI/CD pipeline standards are just the first step
 
 So, we have touched on the importance of standardizing your pipelines and how that reduces friction and enhances collaboration within your organization. We’ve also identified several vital steps, like assessment and analysis and defining your goals, as well as the tools, practices, documentation, and feedback loops that help optimize your efforts. Implementing these better practices will help you improve your CI/CD pipeline and the overall Developer Experience and quality of your software delivery process. However, it's not the finish line. Next, we’ll talk about the role of interoperability in your CI/CD systems.
+
+---
+
+*Cover image created by ChatGPT / DALL-E*

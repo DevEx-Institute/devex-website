@@ -29,8 +29,15 @@
                     </ul>
                 </div>
             {{ end }}
-            <!-- <h3>{{ range page.Params.authors }}{{ . }}{{ end }} | {{ partial "reading-time.html" . }}</h3> -->
         </div>
+        <div class="meta">
+            <div class="byline">
+                <font style="font-weight: bold;">{{ range page.Params.authors }}{{ . }}{{ end }}</font>
+                <small>|</small> 
+                Reading time: {{ .ReadingTime }} minute{{ if (ne .ReadingTime 1) }}s{{ end }}
+            </div>
+        </div>
+
     </div>
     <div class="container post">
         {{ page.Content }}
