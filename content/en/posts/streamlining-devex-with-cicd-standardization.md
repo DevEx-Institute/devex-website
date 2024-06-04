@@ -3,8 +3,8 @@ title: "Streamlining your Developer Experience through CI/CD standardization"
 publishDate: 2024-03-01T12:00:00-06:00
 draft: false
 image: /images/posts/streamlining-cicd.jpg
-description: "A successful DevEx focuses on eliminating obstacles that hinder a developer or practitioner from achieving success. CI/CD standardization is an important piece."
-summary: "A successful DevEx focuses on eliminating obstacles that hinder a developer or practitioner from achieving success. It also refers to developers' overall satisfaction and efficiency while working on software projects. CI/CD standardization brings consistency to development pipelines, reducing friction and enhancing collaboration."
+description: "CI/CD standardization is an important piece of a successful DevEx implementation, and brings consistency to development pipelines, reducing friction and enhancing collaboration."
+summary: "CI/CD standardization is an important piece of a successful DevEx implementation, and brings consistency to development pipelines, reducing friction and enhancing collaboration."
 authors: ["Jeremy Meiss"]
 tags:
   - devex

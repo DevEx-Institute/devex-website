@@ -6,6 +6,7 @@ defaultContentLanguage = 'en'
 assetDir = "static"
 timeZone = "America/New_York"
 enableEmoji = true
+summaryLength = 250
 
 [taxonomies]
     tag = "tags"
