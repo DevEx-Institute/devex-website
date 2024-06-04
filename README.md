@@ -16,7 +16,7 @@ https://devex.institute
 - Copied base theme files to `themes/hugobricks`
 - Copied shortcode content to `content/en/bricks`
 - Copied:
-  - theme's `content/en/_index.md` to `content/en/index.md`
+  - theme's `content/en/_index.md` to `content/en/_index.md`
   - theme's `content/en/about.md` to `content/en/about.md`
   - theme's `content/en/contact.md` to `content/en/contact.md`
   - theme's `content/en/team.md` to `content/en/team.md`
@@ -38,7 +38,10 @@ https://devex.institute
 - Added `./netlify.toml` for Netlify build settings
 - Updated `canonical_url` usage in theme by moving `<head></head>` elements into a partial at `./layouts/partials/head.html` and then including it in the `baseof.html` layout, and then adding logic for if `canonicalUrl` is used in the front matter of a post
 - Updated `archetypes/default.md` to meet the necessary elements for a new post (use `hugo new content posts/<name-of-new-post>.md`)
+- Created `./layouts/partials/brick_about.html` as a custom brick based off of `image2` brick, and kept About on home page
+- Utilizing contact form on home page instead of separate page
 
 ### Modifications made
 
 - Copied `/themes/hugobricks/layouts/partials/people.html` to `./layouts/partials/people.html` and modified to add Twitter links and adjust location of social links
+- Multiple css changes made in `/static/css/style.css`
