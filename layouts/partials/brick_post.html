@@ -32,7 +32,7 @@
         </div>
         <div class="meta">
             <div class="byline">
-                <font style="font-weight: bold;">{{ range page.Params.authors }}{{ . }}{{ end }}</font>
+                <font style="font-weight: bold;">{{ delimit page.Params.authors ", " }}</font>
                 <small>|</small>
                 <!-- {{ .ReadingTime }} minute{{ if (ne .ReadingTime 1) }}s{{ end }} -->
                 {{- partial "reading-time.html" . -}}
