@@ -9,4 +9,3 @@ url: /blog/
 # Blog posts
 
 {{< /brick_posts >}}
-{{< brick_cta >}}{{< /brick_cta >}}
