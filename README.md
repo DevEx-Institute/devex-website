@@ -32,19 +32,21 @@ https://devex.institute
 - `./data/en/people.yaml`: Settings for the team display
 - `./data/en/footer.yaml`: Settings for footer, social links, bottom menu, etc.
 - Added `./config/production/hugo.toml` for production build settings, and included GA code
+- Added `./netlify.toml` for Netlify build settings
+- Updated `./data/en/footer.yaml` with copyright and theme info
+
+### Modifications made
+
+- Copied `/themes/hugobricks/layouts/partials/people.html` to `./layouts/partials/people.html` and modified to add Twitter links and adjust location of social links
 - Edited "landing page" at `./content/en/_index.md` to include what content is included on the home page
 - Added `./static/css/style.css` and included override css for post titles
 - Duplicated `./themes/hugobricks/layouts/partials/brick_post.html` to `./layouts/partials/` and then edited to move post image to be above the title in post view
-- Added `./netlify.toml` for Netlify build settings
+- Multiple css changes made in `/static/css/style.css`
+- Adjusted recent posts on home page to not have a filter
+- Added `load more posts` button to end of Recent Posts
 - Updated `canonical_url` usage in theme by moving `<head></head>` elements into a partial at `./layouts/partials/head.html` and then including it in the `baseof.html` layout, and then adding logic for if `canonicalUrl` is used in the front matter of a post
 - Updated `archetypes/default.md` to meet the necessary elements for a new post (use `hugo new content posts/<name-of-new-post>.md`)
 - Created `./layouts/partials/brick_about.html` as a custom brick based off of `image2` brick, and kept About on home page
 - Utilizing contact form on home page instead of separate page
 - Added Google Analytics to `./layouts/partials/head.html` and it will only display on production builds
 
-### Modifications made
-
-- Copied `/themes/hugobricks/layouts/partials/people.html` to `./layouts/partials/people.html` and modified to add Twitter links and adjust location of social links
-- Multiple css changes made in `/static/css/style.css`
-- Adjusted recent posts on home page to not have a filter
-- Added `load more posts` button to end of Recent Posts
