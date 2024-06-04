@@ -27,21 +27,21 @@ Imagine a world where developers have the power to shape their ideal development
 
 ---
 
-![](/images/icons/comments.svg)
+![](/icons/comments.svg)
 ### Collaborative Community
 
 Fostering a vibrant developer community where you can share best practices, exchange strategies, and amplify your voice.
 
 ---
 
-![](/images/icons/microphone.svg)
+![](/icons/microphone.svg)
 ### Advocacy Tools
 
 Developing resources and frameworks specifically designed to help developers build strong business cases for the DevEx improvements they need.
 
 ---
 
-![](/images/icons/bar-chart.svg)
+![](/icons/bar-chart.svg)
 ### Data-Driven Insights
 
 Conducting research and gathering real-world data to highlight DevEx, from the bottom-up.
