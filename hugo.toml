@@ -6,6 +6,12 @@ defaultContentLanguage = 'en'
 assetDir = "static"
 timeZone = "America/New_York"
 
+[taxonomies]
+    tag = "tags"
+    category = "categories"
+    series = "series"
+    author = "authors"
+
 [markup]
     [markup.goldmark]
         [markup.goldmark.renderer]

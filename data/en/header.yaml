@@ -9,6 +9,8 @@ menuitems:
         link:
   - title: Our team
     link: /team/
+  - title: Blog
+    link: /blog/
   # - title: Pages
   #   link: 
   #   items: 

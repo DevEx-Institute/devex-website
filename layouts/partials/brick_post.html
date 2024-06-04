@@ -13,21 +13,23 @@
         {{ partial "breadcrumbs.html" . }}
         <h1>{{ page.Title | safeHTML }}</h1>
         <div class="meta">
-            {{ if .Params.date }}<div>
-                <img src="/img/icons/material-symbols/200/rounded/calendar_month-fill.svg"class="black_2_textDark" alt="" />
-                {{ page.Date | time.Format ":date_medium"}}
-            </div>
+            {{ if page.Params.date }}
+                <div>
+                    <img src="/img/icons/material-symbols/200/rounded/calendar_month-fill.svg"class="black_2_textDark" alt="" />
+                    {{ page.Date | time.Format ":date_medium"}}
+                </div>
             {{ end }}
             {{ if index page.Params.tags 0 }}
-            <div>
-                <img src="/img/icons/material-symbols/200/rounded/label-fill.svg"class="black_2_textDark" alt="" />
-                <ul>
-                    {{ range page.Params.tags }}
-                    <li><a href="/blog/?tag={{ . }}">{{ . }}</a>
-                    {{ end }}
-                </ul>
-            </div>
+                <div>
+                    <img src="/img/icons/material-symbols/200/rounded/label-fill.svg"class="black_2_textDark" alt="" />
+                    <ul>
+                        {{ range page.Params.tags }}
+                        <li><a href="/blog/?tag={{ . }}">{{ . }}</a>
+                        {{ end }}
+                    </ul>
+                </div>
             {{ end }}
+            <!-- <h3>{{ range page.Params.authors }}{{ . }}{{ end }} | {{ partial "reading-time.html" . }}</h3> -->
         </div>
     </div>
     <div class="container post">
