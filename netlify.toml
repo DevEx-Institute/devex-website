@@ -30,6 +30,6 @@
   status = 302
 
 [[redirects]]
-  from   = "/get-a-drink"
-  to     = "/meet-the-team"
+  from   = "/meet-the-team"
+  to     = "/#team"
   status = 302
