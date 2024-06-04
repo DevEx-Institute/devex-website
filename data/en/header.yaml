@@ -4,7 +4,7 @@ mobile_view_width: 1000
 menuitems:
   - title: About
     link: /#about
-  - title: Our team
+  - title: The Team
     link: /#team
   - title: Blog
     link: /blog/

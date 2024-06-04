@@ -50,7 +50,7 @@ Conducting research and gathering real-world data to highlight DevEx, from the b
 
 {{< brick_team >}}
 
-## Our Team
+## The Team
 
 {{< /brick_team >}}
 
