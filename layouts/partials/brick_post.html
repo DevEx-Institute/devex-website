@@ -34,7 +34,8 @@
             <div class="byline">
                 <font style="font-weight: bold;">{{ range page.Params.authors }}{{ . }}{{ end }}</font>
                 <small>|</small>
-                {{ .ReadingTime }} minute{{ if (ne .ReadingTime 1) }}s{{ end }}
+                <!-- {{ .ReadingTime }} minute{{ if (ne .ReadingTime 1) }}s{{ end }} -->
+                {{- partial "reading-time.html" . -}}
             </div>
         </div>
 

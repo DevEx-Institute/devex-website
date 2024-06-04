@@ -1,1 +1,3 @@
-Reading time: {{ .ReadingTime }} minute{{ if (ne .ReadingTime 1) }}s{{ end }}
+<!-- Reading time: {{ .ReadingTime }} minute{{ if (ne .ReadingTime 1) }}s{{ end }} -->
+{{ $readTime := mul (div (countwords page.Content) 240.0) 60 }}
+Reading time: {{ math.Floor (div $readTime 60) }} minutes
