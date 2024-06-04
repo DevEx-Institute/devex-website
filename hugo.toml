@@ -5,6 +5,7 @@ theme = "hugobricks"
 defaultContentLanguage = 'en'
 assetDir = "static"
 timeZone = "America/New_York"
+enableEmoji = true
 
 [taxonomies]
     tag = "tags"
