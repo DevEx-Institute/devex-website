@@ -38,4 +38,4 @@ menuitems:
 cta:
   active: true
   title: Contact Us
-  link: /contact/
+  link: /#contact_us

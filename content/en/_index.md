@@ -7,7 +7,7 @@ title: Home
 
 Building tools and fostering the community to equip developers to champion the Developer Experience they deserve.
 
-{{< button "Get started for free" "/get-started/" >}}
+{{< button "Find out more" "/#about" >}}
 
 {{< /brick_intro >}}
 
