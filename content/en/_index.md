@@ -70,4 +70,3 @@ We're here to support you in your DevEx advocacy journey. Have questions about w
 
 {{< /brick_contact >}}
 
-<!-- {{< brick_cta >}}{{< /brick_cta >}} -->

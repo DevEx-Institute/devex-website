@@ -49,4 +49,4 @@ https://devex.institute
 - Created `./layouts/partials/brick_about.html` as a custom brick based off of `image2` brick, and kept About on home page
 - Utilizing contact form on home page instead of separate page
 - Added Google Analytics to `./layouts/partials/head.html` and it will only display on production builds
-
+- Duplicated `./themes/hugobricks/layouts/posts` and removed `bricks_cta`
