@@ -1,0 +1,20 @@
+<!-- responds to usage like -->
+<!--
+
+````quote { author="Jessica West" cite="https://linkedin.com/in/jessicaewest"}
+DevEx is the journey of developers as they learn and deploy technology. When successful, it focuses on eliminating obstacles that hinder a developer or practitioner from achieving success in their endeavors.
+````
+
+-->
+
+{{ $author    := .Attributes.author   }}
+{{ $cite      := .Attributes.cite     }}
+<blockquote class="q-card q-card-color-1">
+    <div class="content">
+        {{ .Inner | .Page.RenderString }}
+    </div>
+    <div class="author">
+    {{- with $author}}
+        {{ with $cite }}<a href="{{$cite}}">{{end}}{{ . | $.Page.RenderString }}{{ with $cite }}</a>{{end}}
+    {{ end -}}
+</blockquote>
