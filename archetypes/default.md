@@ -2,6 +2,7 @@
 title: '{{ replace .File.ContentBaseName "-" " " | title }}'
 date: {{ .Date }}
 draft: true
+publishDate:   # should be date in the future to publish once no longer draft
 image: "https://picsum.photos/800/600" ## replace this with an image in static/images/posts/ (/images/posts/)
 description: "" ## description for meta tag
 summary: "" ## summary for posts page and recent posts
