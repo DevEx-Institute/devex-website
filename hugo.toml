@@ -36,3 +36,6 @@ summaryLength = 250
     limit = -1
   [services.twitter]
     disableInlineCSS = false
+
+[frontmatter]
+date = ["publishDate", "date", ":default"]

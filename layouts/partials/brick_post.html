@@ -38,7 +38,11 @@
                 {{- partial "reading-time.html" . -}}
             </div>
         </div>
-
+        {{ if page.Params.canonicalUrl }}
+        <div class="meta">
+            <font style="font-size: smaller; font-style: italic;">Post first appeared <a href="{{ page.Params.canonicalURL | safeURL }}">here</a></font>
+        </div>
+        {{ end }}
     </div>
     <div class="container post">
         {{ page.Content }}
