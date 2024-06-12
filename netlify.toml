@@ -1,6 +1,6 @@
 [build]
   publish = "public"
-  command = "hugo --gc --buildFuture --cleanDestinationDir"
+  command = "hugo --gc --minify --buildFuture --cleanDestinationDir"
 
   [build.environment]
     HUGO_VERSION = "0.126.1"
