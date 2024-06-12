@@ -2,7 +2,7 @@
 title: Developer Experience is essential for DevOps success
 date: 2024-06-11T16:15:11-05:00
 draft: false
-publishDate: 2024-06-12T16:15:11-05:00
+publishDate: 2024-06-20T16:15:11-05:00
 image: /images/posts/devex-devops-success.jpg
 description: Explore how enhancing developer experience is crucial for DevOps success and fostering a productive, innovative engineering culture.
 summary: DevEx is a factor throughout the development process and is influenced by chosen tools, technologies, and platforms. It also directly impacts how well our DevOps practices are implemented and adopted.
