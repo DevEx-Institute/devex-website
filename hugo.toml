@@ -39,4 +39,4 @@ summaryLength = 250
 
 [frontmatter]
 # date = ['publishDate', 'date', ':default']
-publishDate = ['publishDate', ':default']
+publishDate = ['publishDate']
