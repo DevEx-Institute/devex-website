@@ -1,7 +1,7 @@
 ---
 title: Developer Experience is essential for DevOps success
 date: 2024-06-11T16:15:11-05:00
-publishDate: 2024-06-20T16:15:11-05:00
+publishDate: 2024-06-17T16:15:11-05:00
 draft: false
 image: /images/posts/devex-devops-success.jpg
 description: Explore how enhancing developer experience is crucial for DevOps success and fostering a productive, innovative engineering culture.
