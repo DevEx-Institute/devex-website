@@ -1,18 +1,20 @@
 ---
-title: 'Developer Experience is essential for DevOps success'
+title: Developer Experience is essential for DevOps success
 date: 2024-06-11T16:15:11-05:00
 draft: true
 publishDate: 2024-06-12T16:15:11-05:00
-image: "/images/posts/devex-devops-success.jpg" ## replace this with an image in static/images/posts/ (/images/posts/)
-description: "DevEx is a factor throughout the development process and is influenced by chosen tools, technologies, and platforms. It also directly impacts how well our DevOps practices are implemented and adopted." ## description for meta tag
-summary: "DevEx is a factor throughout the development process and is influenced by chosen tools, technologies, and platforms. It also directly impacts how well our DevOps practices are implemented and adopted." ## summary for posts page and recent posts
-authors: ["Jeremy Meiss"]
+image: /images/posts/devex-devops-success.jpg
+description: DevEx is a factor throughout the development process and is influenced by chosen tools, technologies, and platforms. It also directly impacts how well our DevOps practices are implemented and adopted.
+summary: DevEx is a factor throughout the development process and is influenced by chosen tools, technologies, and platforms. It also directly impacts how well our DevOps practices are implemented and adopted.
+authors:
+  - Jeremy Meiss
 tags:
   - devex
-  - deeveloper experience
+  - developer experience
   - devops
-toc: true ## if you want a table of contents on the side
-canonicalUrl: "https://jmeiss.me/posts/devex-essential-devops-success/" ## where post was first published, if applicable
+toc: true
+canonicalUrl: https://jmeiss.me/posts/devex-essential-devops-success/
+slug: developer-experience-essential-devops-success
 ---
 
 The ease with which a developer or ops practioner interacts with a tool or service, from setup to even issue resolution, directly impacts their productivity, satisfaction, and even the quality of the products they build and use. DevEx is crucial throughout the development process and is influenced by chosen tools, technologies, and platforms. Ease of use, reliability, accessibility, documentation clarity, build efficiency, testing effectiveness, and deployment smoothness all impact the overall dev experience.
