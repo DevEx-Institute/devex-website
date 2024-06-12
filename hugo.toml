@@ -38,5 +38,5 @@ summaryLength = 250
     disableInlineCSS = false
 
 [frontmatter]
-# date = ['publishDate', 'date', ':default']
-publishDate = ['publishDate']
+# date = ["publishDate", "date", ":default"]
+publishDate = ["publishDate"]
