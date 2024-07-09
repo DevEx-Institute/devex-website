@@ -27,6 +27,13 @@ Imagine a world where developers have the power to shape their ideal development
 
 ---
 
+![](/icons/meeting.svg)
+### Consulting
+
+text here
+
+---
+
 ![](/icons/comments.svg)
 ### Collaborative Community
 
