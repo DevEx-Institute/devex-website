@@ -1,0 +1,5 @@
+﻿{
+  "Description": "Domain ownership verification file for Microsoft 365 - place in the website root",
+  "Domain": "devex.institute",
+  "Id": "9a989381-3843-4c14-8a7a-52a0baa8503c"
+}
